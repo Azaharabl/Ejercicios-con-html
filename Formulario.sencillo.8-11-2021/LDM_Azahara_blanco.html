@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario 4-11-2021</title>
+</head>
+<body>
+    <div style="border: 4px solid black;">
+        <form action="">
+            <table  rules="all" >
+                <tr style="height: 1ch; background-color: dodgerblue; text-align: center;">
+                    <td colspan="5">
+                        <h1>Formulario de registro</h1>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="background-color: aqua; width: 4cm;" >
+                        <label>Nombre</label>
+                    </td>
+                    <td>
+                     <input type="text">
+                    </td>
+                    <td style="background-color: aqua;width: 4cm;">
+                    <label>Apellidos</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td rowspan="8">
+                        <p>Esto es un formulario de registro,
+                        datos a tener en cuenta:
+                        </p>
+                        <ul>
+                                <li>El campo Nombre es obligatorio.</li>
+                                <li>Se debe incluir un email valido.</li>
+                                <li>La calve debe de ser igual o mayor a 8 caracteres</li>
+                        </ul>
+                        <p>Las ormas a seguir a la hora de rellenar
+                             este formulario son las siguientes:
+                        </p>
+                        <ol>
+                                <li>El campo Nombre es obligatorio.</li>
+                                <li>Se debe incluir un email valido.</li>
+                                <li>La calve debe de ser igual o mayor a 8 caracteres</li>
+                        </ol>
+                    
+                    </td>
+                   
+                </tr>
+                <!--tengo que conseguir que si no 
+                    son iguales los correos de fallo,-->
+                <tr>
+                    <td style="background-color: aqua;">
+                        <label>Email</label>
+                    </td>
+                    <td>
+                     <input type="email">
+                    </td>
+                    <td style="background-color: aqua;">
+                    <label>Confirmar Email</label>
+                    </td>
+                    <td>
+                        <input type="email">
+                    </td>
+                     
+                </tr>
+                <tr>
+                    <td style="background-color: aqua;">
+                        <label>Clave</label>
+                    </td>
+                    <td>
+                     <input type="password" minlength="8"/>
+                    </td>
+                    <td style="background-color: aqua;">
+                    <label>Confirmar Clave</label>
+                    </td>
+                    <td>
+                        <input type="password" minlength="8"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <img src="imagenes/hotmail.jpg" width="60"  style="border: 3px solid black;">
+                    </td>
+                    <td rowspan="4" colspan="2" style="border-bottom: none;">
+                        <p>
+                            <b>En este parrafo</b>se describen 
+                            las nornativas referntes a la LOPD <br>
+                             para los datos de caracter personal del 
+                             usuario.
+                        </p>
+                        <p style="color: cornflowerblue;">
+                            <b>En este otro parrafo</b>se describe la vigencia
+                            del registro por parte <br> del usuario.
+                        </p>
+                        <p >
+                            Para terminar este parrafo contiene Copyright®
+                            <!--insertar aqui el simbolo de copyright-->
+                        </p>  
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <img src="./imagenes/gmail.jpg" width="60">
+                    </td>  
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Observaciones:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">
+                        <textarea cols="50" rows="7"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-right: none; border-top: none;">
+                        <input type="submit" value="Enviar"/>
+                    </td>
+                    <td style="border-left: none; border-top: none;">
+                        <input type="reset" value="Borrar Datos"/>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+</body>
+</html>
